@@ -13,7 +13,7 @@
 
 ``` ruby 
 def my_own_customized_method
-    p 'Welcome to my ruby world'
+    puts 'Welcome to my ruby world'
 end
 
 ```
