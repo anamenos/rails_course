@@ -11,6 +11,8 @@
     <br />
     <p>
      <%= link_to "Edit", edit_portfolio_url(portfolio_item) %>
+     <br />
+     <%= button_to "Destroy", portfolio_path(portfolio_item), method: :delete %>
     </p>
     <br/>
     
