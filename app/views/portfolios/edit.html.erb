@@ -1,0 +1,19 @@
+<h2>Edit Portfolio</h2>
+<%= form_for(@portfolio_item) do |f| %>
+<p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+</p>
+<p>
+    <%= f.label :subtitle %>
+    <%= f.text_field :subtitle %>
+</p>
+<p>
+    <%= f.label :body %>
+    <%= f.text_field :body %>
+</p>
+<p>
+    <%= f.submit %>
+</p>
+
+<%end%>
