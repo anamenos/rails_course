@@ -1,24 +1,19 @@
-# Welcome to my First Ruby on Rails App
+# Ruby Course following by anil
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a series of learnings for RoR
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+- Real-time chat engine for comments
+- Blog
+- Porfolio
+- Drag and Drop interface
 
-* System dependencies
+### Code Example
 
-* Configuration
+``` ruby 
+def my_own_customized_method
+    p 'Welcome to my ruby world'
+end
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
