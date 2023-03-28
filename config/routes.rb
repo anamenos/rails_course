@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   resources :portfolios
+  
+  get "/some/*missing", to: "missings#index"
 
   get 'about', to: 'pages#about'
 
@@ -12,4 +14,5 @@ Rails.application.routes.draw do
   end
 
   root "pages#home"
+  
 end
